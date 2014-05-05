@@ -1,1 +1,73 @@
 /* Include your CSS rules here */
+
+html {
+    background-color: #3a3530;
+}
+body {
+    margin: 0px;
+    padding: 30px;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+}
+
+#chart-name {
+    color: white;
+    text-align: center;
+}
+
+#charts {
+    text-align: center;
+}
+
+.chart-image {
+    width: 100px;
+    -webkit-transition: width 0.5s;
+    cursor: pointer;
+}
+
+.chart-image.selected {
+    width: 150px;
+}
+
+.song-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.song-list li {
+    color: white;
+    padding-left: 10px;
+    background-color: #4a433e;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 80px;
+}
+
+.song-position {
+    height: 80px;
+    width: 80px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.song-title {
+    font-size: 16px;
+    margin-left: 50px; 
+    padding-top: 18px;
+}
+
+.song-artist {
+    font-size: 14px;
+    font-weight: bold;
+    color: #82B919;
+}

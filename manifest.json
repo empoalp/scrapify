@@ -23,8 +23,9 @@
     "views": "1.10.0"
   },
   "RequiredPermissions": [
-    "http://*",
-    "http://www.mtv.co.uk"
+    "http://www.mtv.co.uk",
+    "http://los40.com/lista40/",
+    "http://www.bbc.co.uk/radio1/"
   ],
   "SupportedDeviceClasses": [
     "Web",
